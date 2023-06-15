@@ -1,0 +1,13 @@
+logging:
+  pattern:
+    console: '%d{HH:mm:ss.SSS} %clr(%-5level) --- [%-15thread] %cyan(%-50logger{50}):%msg%n'
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mysecurity?serverTimezone=UTC
+    username: root
+    password01: DEVtest@2022
+
+server:
+  port: 8089
